@@ -1,0 +1,50 @@
+BasicWar
+2
+ 
+True
+False
+-1
+~
+element
+card
+deck_1
+deck
+1
+0
+True
+-183.2193
+-1.638541
+0
+deck_1,rank,>,deck,_2,rank
+False
+deck_2,drawtorandom,1,deck_1
+deck_1,drawtorandom,1,deck_1
+~
+~
+26
+deck_2
+deck
+2
+0
+True
+159.088
+-0.1489506
+0
+deck_2,rank,>,deck_1,rank
+False
+deck_1,drawtorandom,1,deck_2
+deck_2,drawtorandom,1,deck_2
+~
+deck_1,rank,=,deck_2,rank
+False
+deck_1,drawtorandom,1,deck_1
+deck_2,drawtorandom,1,deck_2
+~
+~
+26
+end of locations
+deck_1 count = 0 
+2 wins 
+deck_2 count = 0 
+1 wins 
+~

@@ -1,0 +1,6 @@
+if deck_1 rank > deck_2 rank : deck_1 DrawToRandom 1 deck_1 ; deck_2 DrawToRandom 1 deck_1 ;
+if deck_1 rank < deck_2 rank : deck_2 DrawToRandom 1 deck_2 ; deck_1 DrawToRandom 1 deck_2 ;
+if deck_1 rank = deck_2 rank : deck_1 DrawToRandom 1 deck_1 ; deck_2 DrawToRandom 1 deck_2 ;
+
+deck_1 count = 0 : 2 wins ;
+deck_2 count = 0 : 1 wins ;
